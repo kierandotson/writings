@@ -39,24 +39,3 @@ npm run build
 ```
 
 Output is in `dist/`. Serve that folder with any static host or use `npm run preview` to test locally.
-
-## Deploy to GitHub Pages
-
-1. **Create a GitHub repo** (if you haven’t) and push this project:
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit"
-   git remote add origin https://github.com/kierandotson/writings.git
-   git branch -M main
-   git push -u origin main
-   ```
-
-2. **Turn on GitHub Pages** for the repo:
-   - Repo → **Settings** → **Pages**
-   - Under **Build and deployment**, set **Source** to **GitHub Actions**
-
-3. **Trigger a deploy**: Push to `main` or run the **Deploy to GitHub Pages** workflow from the **Actions** tab. The site will be at:
-   - **Project site:** `https://<username>.github.io/writings/`
-
-4. **Custom domain (optional):** In **Settings → Pages**, set your domain. Then in `.github/workflows/deploy.yml`, set `BASE_PATH: ''` in the Build step so the app is served at the root.
