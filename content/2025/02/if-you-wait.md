@@ -6,19 +6,15 @@ tags: [poem]
 
 If you wait until you cannot see the stars
 
-And walk 100 miles in a spiral
-
-Don your sunglasses
+Close your eyes and walk 100 miles in a spiral
 
 Let go of everything you held on to
 
 And try to get back home
 
-
 .
 
-
-You may find a glassy lake without joy
+You may find a glass-still lake, without joy
 
 Damp and cold, and creaking
 
@@ -26,9 +22,7 @@ The blankness of strangers' faces
 
 Calm or angry or I don't know
 
-
 .
-
 
 You may find the last world war
 
@@ -38,9 +32,7 @@ The terror of your existence, of our existence
 
 Or the existence of anything at all
 
-
 .
-
 
 And you may find peace
 
@@ -52,33 +44,23 @@ When you wake up at 3AM to the baby's cries
 
 Or your dog, pawing at your shoulder
 
-
 .
-
 
 Between your gasps for air there will be deep, clean breaths
 
-There will be rest
+There will be rest and snow and rain, and rivers
 
-And snow, and rain, and rivers
-
-Hot asphalt, long rides home
+Dry, hot asphalt, long rides home
 
 And rusty hinges, on half-painted sheds
 
-
 .
 
-
-And you will find that, even in your loneliest moments
-
-In your darkest places
+And you will find that
 
 If you keep your eyes open
 
-
 .
-
 
 The stars will see you
 
