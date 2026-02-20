@@ -5,7 +5,6 @@ tags: [poem]
 ---
 
 If you wait until you cannot see the stars
-
 And walk 100 miles in a spiral
 
 Don your sunglasses

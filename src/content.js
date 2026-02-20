@@ -22,6 +22,10 @@ export async function loadPosts() {
       const tags = Array.isArray(data.tags)
         ? [...new Set(data.tags.map((t) => String(t).toLowerCase().trim()).filter(Boolean))]
         : []
+      // Treat a line that is only "." as a stanza break (poetry) — vertical space, no line
+      const bodyForHtml = content.replace(/^\.\s*$/gm, '\n\n---\n\n')
+      let html = marked.parse(bodyForHtml)
+      html = html.replace(/<hr\s*\/?>/gi, '<br><br>')
       return {
         slug,
         path,
@@ -30,7 +34,7 @@ export async function loadPosts() {
         date: data.date || '',
         excerpt: data.excerpt || content.slice(0, 200),
         body: content,
-        html: marked.parse(content),
+        html,
       }
     })
   )
