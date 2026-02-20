@@ -14,7 +14,7 @@ And try to get back home
 
 .
 
-You may find a glass-still lake, without joy
+You may find a glass-still lake, no joy
 
 Damp and cold, and creaking
 
