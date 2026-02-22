@@ -22,9 +22,8 @@ export async function loadPosts() {
       const tags = Array.isArray(data.tags)
         ? [...new Set(data.tags.map((t) => String(t).toLowerCase().trim()).filter(Boolean))]
         : []
-      // Treat a line that is only "." as a stanza break (poetry) — vertical space, no line
-      const bodyForHtml = content.replace(/^\.\s*$/gm, '\n\n---\n\n')
-      let html = marked.parse(bodyForHtml)
+      marked.setOptions({ breaks: true })
+      let html = marked.parse(content)
       html = html.replace(/<hr\s*\/?>/gi, '<br><br>')
       return {
         slug,

@@ -3,7 +3,7 @@
     <section v-if="loading">Loading…</section>
     <template v-else-if="post">
       <header>
-        <router-link to="/" class="back">← Back</router-link>
+        <router-link to="/" class="back">← Writings</router-link>
         <h1>{{ post.title }}</h1>
         <p class="meta">{{ post.tags.join(', ') }} · {{ formatDate(post.date) }}</p>
       </header>
